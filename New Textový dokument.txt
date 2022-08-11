@@ -1,0 +1,14 @@
+  
+            <div class="tooltip" >Adam<span class="tooltipimg"><img src="images/cervik.jpg"></span></div> 
+je takovej, 
+            <div class="tooltip" >Radek<span class="tooltipimg"><img src="images/logo.jpg" alt="logo"></span></div>
+je takovej 
+            <div class="tooltip" >Kamilek<span class="tooltipimg"><img src="images/kamilek.jpg"></span></div>
+je takovej
+
+
+
+<div class="about-section">
+  <h1 style="font-size: 35px">O nás</h1>
+  <p>kdo jsme, co jsme za kokoty</p>
+</div>

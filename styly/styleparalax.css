@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Playfair+Display:ital,wght@0,400;0,800;1,400;1,800&family=Righteous&family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+
+.bgimg-2,
+.bgimg-3,
+.bgimg-4 {
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.nahled {
+    background-image: url("../images/second.png");
+    opacity: 1;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    overflow: hidden;
+
+}
+
+.bgimg-2 {
+    background-image: url("../images/cervik.jpg");
+    min-height: 80vh;
+}
+
+.bgimg-3 {
+    background-image: url("../images/naber.jpeg");
+    min-height: 80vh;
+}
+
+.bgimg-4 {
+    background-image: url("../images/mnamka.jpg");
+    min-height: 80vh;
+}
+
+article p {
+    font: 20px/1.8 "Lato", sans-serif;
+    text-align: center;
+}
+
+.velkynadpis {
+    font-family: "Playfair Display";
+    color: white;
+    border: none;
+    text-align: center;
+    font-size: 10vw;
+    font-weight: 700;
+}
+
+.malynadpis1 {
+    position: absolute;
+    text-align: center;
+    color: #000;
+
+}
+
+.malynadpis {
+    background-color: transparent;
+    font-size: 80px;
+    color: #f7f7f7;
+}
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 30px "Lato", sans-serif;
+    color: #111;
+    text-align: center;
+}
+
+.popis {
+    color: #777;
+    background-color: white;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+}
+
+header.page-title {
+    display: none;
+}
+
+ul.main-menu li .navbar-brand:hover {
+    padding: none;
+}

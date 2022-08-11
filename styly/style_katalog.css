@@ -1,0 +1,89 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 80px;
+}
+
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-height: 170px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.price {
+    color: var(--accent-color);
+    font-size: 22px;
+    font-family: "Bree Serif";
+    font-weight: 500;
+    text-align: center;
+    min-height: 30px;
+}
+
+.card:hover {
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
+}
+
+.popisek {
+    font-family: "Bree Serif";
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    min-height: 60px;
+}
+
+.nadpisek {
+    text-align: center;
+    font-size: 4rem;
+    font-family: "Signika Negative";
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    color: black;
+}
+
+.jmeno-produktu {
+    font-family: "Playfair Display";
+    font-size: 3vh;
+    font-weight: 500;
+    padding-top: 10px;
+    min-height: 35px;
+}
+
+@media screen and (max-width: 600px) {
+    .jmeno-produktu {
+        font-size: 1.25em;
+        min-height: 30px;
+    }
+
+    .price {
+        font-size: 1.2em;
+        min-height: 30px;
+    }
+
+    .popisek {
+        font-size: 0.7em;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        min-height: 60px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .nadpisek {
+        padding-bottom: 30px;
+    }
+}

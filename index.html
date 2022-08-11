@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styly/normalize.css" />
+    <link rel="stylesheet" href="styly/style.css" />
+    <link rel="stylesheet" href="styly/style_navbar.css" />
+    <title>WORLDWORM</title>
+    <style type="text/css" media="screen">
+        header.page-title {
+            background-image: url(images/pozadi_index.png);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <div class="lg"><a href="index.html"><img src="images/logo.jpg" alt="logo"></a></div>
+        <a href="o-nas.html">Kdo jsme</a>
+        <a href="chov.html">Červíci</a>
+        <a href="Katalog.html">Produkty</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <article>
+        <header class="page-title">
+            <h1>WORLDWORM</h1>
+        </header>
+        <div class="content-wrapper">
+            <div class="citat"><span class="uvozovky">„</span>MALÉ ŘEŠENÍ PRO VELKÉ PROBLÉMY<span class="uvozovky">“</span></div>
+            <h2>Úvodní slovo</h2>
+            <p>Náš projekt WorldWorm se zaměřuje na zpracování jedlého hmyzu, ten je ale pro většinu strávníků nezkousnutelným soustem.</p>
+            <p> Avšak, my ho zpracováváme do podoby, kdy o jeho skonzumování nemusí člověk ani vědět a přesto z něho získat všechny pro lidské tělo přínosné látky.</p>Naše firma se skládá pouze ze tří šikovných lidí:
+            <div class="tooltip"><a href="kamilek.html" style="text-decoration: none">Kamila</a><span class="tooltipimg"><img src="images/kamilek.jpg"></span></div>,
+            <div class="tooltip"><a href="#" style="text-decoration: none">Adama</a><span class="tooltipimg"><img src="images/adamek.jpg"></span></div> a
+            <div class="tooltip"><a href="#" style="text-decoration: none">Radka</a><span class="tooltipimg"><img src="images/radecek.jpg"></span></div>
+        </div>
+    </article>
+    <footer class="footer-distributed">
+        <div class="footer-right">
+            <a href="mailto:info@worldworm.eu"><i class="fa fa-at"></i></a>
+            <a href="https://www.instagram.com/worldworm.official/"><i class="fa fa-instagram"></i></a>
+        </div>
+        <div class="footer-left">
+            <p class="footer-links">
+                <a class="link-1" href="o-nas.html">O nás</a>
+                <a href="kontakty.html">Kontakty</a>
+                <a href="zdroje.html">Zdroje</a>
+            </p>
+            <p class="copy">Word Worm &copy; 2022</p>
+        </div>
+    </footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body></html>

@@ -1,16 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Playfair+Display:ital,wght@0,400;0,800;1,400;1,800&family=Righteous&family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 :root {
-    --page-background: white;
-    --main-background: white;
-    --main-color: black;
+    --svetle-zelena: #758c20;
     --link-color: #758c20;
     --hover-color: #758c20;
-    --accent-color: #758c20;
-    --accent-color2: white;
-    --normal-gap: 1rem;
-    --wide-gap: 2rem;
-
+    --velikost-pisma: 15px;
+    --nadpis: "Dosis";
+    --texty: "quicksand";
 }
 
 .topnav .lg a:hover {
@@ -19,6 +15,7 @@
 
 .topnav .lg {
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 .topnav .lg img {
@@ -37,6 +34,7 @@
     width: 100%;
     z-index: 100;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    font-family: "quicksand";
 }
 
 .topnav a {
@@ -57,13 +55,13 @@
 }
 
 .topnav a:hover {
-    color: var(--accent-color);
+    color: var(--svetle-zelena);
 
 }
 
 .topnav a.active {
     color: white;
-    background-color: var(--accent-color);
+    background-color: var(--svetle-zelena);
 }
 
 .topnav .icon {
@@ -73,7 +71,7 @@
 
 /* Add a dark background on topnav links and the dropdown button on hover */
 .topnav a:hover:not(.lg a) {
-    color: var (--accent-color);
+    color: var (--svetle-zelena);
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
@@ -85,7 +83,7 @@
     .topnav a.icon {
         float: right;
         display: block;
-        color: var (--accent-color);
+        color: var (--svetle-zelena);
     }
 }
 

@@ -1,3 +1,12 @@
+:root {
+    --svetle-zelena: #758c20;
+    --link-color: #758c20;
+    --hover-color: #758c20;
+    --velikost-pisma: 15px;
+    --nadpis: "Dosis";
+    --texty: "quicksand";
+}
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
@@ -18,7 +27,7 @@
 }
 
 .price {
-    color: var(--accent-color);
+    color: var(--svetle-zelena);
     font-size: 22px;
     font-family: "Bree Serif";
     font-weight: 500;

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Major+Mono+Display&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 
 :root {
@@ -6,7 +6,7 @@
     --link-color: #758c20;
     --hover-color: #758c20;
     --velikost-pisma: 15px;
-    --nadpis: "Dosis";
+    --nadpis: "Major Mono Display";
     --texty: "quicksand";
 }
 
@@ -30,7 +30,7 @@ h2,
 h3 {
     font-family: var(--nadpis);
     font-weight: 700;
-    font-size: 25px;
+    font-size: 30px;
 
 }
 
@@ -365,6 +365,7 @@ section {
     color: white;
     padding-bottom: 80px;
     padding-top: 80px;
+    font-size: 20px;
 }
 
 .bily_pozadi {
@@ -375,6 +376,8 @@ section {
     overflow: hidden;
     padding-top: 80px;
     padding-bottom: 80px;
+    font-size: 20px;
+
 }
 
 @media (min-width: 770px) {

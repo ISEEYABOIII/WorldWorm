@@ -9,72 +9,110 @@
     <link rel="stylesheet" href="styly/normalize.css" />
     <link rel="stylesheet" href="styly/style.css" />
     <link rel="stylesheet" href="styly/style_navbar.css" />
-    <link rel="stylesheet" href="styly/styleparalax.css" />
     <title>WORLDWORM</title>
     <link rel="icon" href="images/logo_nahore.png" type="image/x-icon">
+    <style type="text/css" media="screen">
+        header.page-title {
+            background-image: linear-gradient(rgba(117, 140, 32, 0.1), rgba(117, 140, 32, 0.35)), url(images/radek_smrdi.jpg);
+
+        }
+    </style>
 </head>
 
 <body>
-
-    <div class="topnav" id="myTopnav">
+    <div class="topnav-mobile" id="myTopnav">
         <div class="lg"><a href="index.html"><img src="images/logo.jpg" alt="logo"></a></div>
-        <a href="o-nas.html">Kdo jsme</a>
-        <a href="chov.html" class="active">Červíci</a>
-        <a href="Katalog.html">Produkty</a>
+        <a href="o-nas.html">KDO JSME</a>
+        <a href="chov.html" class="active">ČERVÍCI</a>
+        <a href="Katalog.html">PRODUKTY</a>
+        <a href="kontakty.html">KONTAKTY</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div class="topnav" id="myTopnav">
 
+        <a href="o-nas.html">KDO JSME</a>
+        <a href="chov.html" class="active">ČERVÍCI</a>
+        <div class="lg"><a href="index.html"><img src="images/logo.jpg" alt="logo"></a></div>
+        <a href="Katalog.html">PRODUKTY</a>
+        <a href="kontakty.html">KONTAKTY</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
     </div>
     <article>
         <header class="page-title">
-            <h1>Chov</h1>
+            <h1>červíci</h1>
         </header>
-        <div class="nahled">
-            <div class="velkynadpis">
-                <span>Zpracování</span>
+
+        <div class="header">
+            <div>
+                <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                    <defs>
+                        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                    </defs>
+                    <g class="parallax">
+                        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(117, 140, 32,0.3)" />
+                        <use xlink:href="#gentle-wave" x="48" y="7" fill="#758c20" />
+                    </g>
+                </svg>
+            </div>
+        </div>
+        <div class="zeleny_pozadi">
+            <div class="content-wrapper">
+                <h2>výživnost</h2>
+                <p>Po dlouhé době hledání ideální základní složky našich receptů jsme došli k potemníku moučnému, který obsahuje vysoké množství dobře stravitelných bílkovin a jiných pro tělo důležitých látek, například: měď, sodík, draslík, železo, zinek, selen a mnohem víc! Obsah bílkovin je srovnatelný s hovězím masem a larvy obsahují velké množství zdravých polynenasycených tukků. Může se pyšnit všemi 10 esenciálními aminokyselinami a omega-3 a omega-6 tuky. Speciální strava našich červíků ovlivňuje jejich chuť i v nich obsažené látky, takže jsou bohatí na vitamíny i vlákninu a mohou chutnat třeba jako chilli!</p>
+
+            </div>
+        </div>
+        <div class="footer">
+            <div>
+                <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                    <defs>
+                        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                    </defs>
+                    <g class="parallax">
+                        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(117, 140, 32,0.7" />
+                        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(117, 140, 32,0.5)" />
+                        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(117, 140, 32,0.3)" />
+                        <use xlink:href="#gentle-wave" x="48" y="7" fill="#758c20" />
+                    </g>
+                </svg>
             </div>
         </div>
 
-        <div class="content-wrapper">
-            <div class="popis">
-                <h3>Postup</h3>
-                <p>Postup kterým musí červící projít od začátku až po konec</p>
-            </div>
 
-            <div class="bgimg-2">
-                <div class="malynadpis1">
-                    <span class="malynadpis">1. Krok</span>
-                </div>
+        <div class="bily_pozadi">
+            <div class="content-wrapper">
+                <h2>ekologie</h2>
+                <p>Lidstvo se potýka s mnoha problémy, od alarmujících měření CO2 v atmosféře i ubývajícími lesy, které musí být káceny pro zakládání úrodných polí z důvodu obživy rostoucí lidské populace. Úrodná půda přesto ubývá a stále nejsme schopni zajistit dostatek výživy každému člověku, ani dítěti pro žití plnohodnotného života a už i ve vyspělých zemích začíná být problém s nedostatkem kvalitní čisté vody.</p>
+                <p>V roce 2050, kdy na světě bude žít 9 miliard lidí, nebude dostatek vody na produkci dostatku potravin pro všechny - pokud bude převažovat současný stav západní stravy (v USA spotřebují cca 122 kg masa/rok na osobu, v EU 90 kg).
+                    Na výrobu jednoho kilogramu hovězího masa se spotřebuje 15 500 litrů vody, na 6,5 kg zrní, 36 kg objemového krmiva. Co se týče vody, tak 155 litrů vypije kráva za den, prase 25 litrů a ovce zhruba 20 litrů vody denně. Za posledních 50 let vzrostla světová spotřeba masa 5x a tím adekvátně množství CO2 - chov dobytka se stal jedním z největších emitentů plynů způsobujících globální oteplování, dokonce větším, než je dopravní či automobilový průmysl.</p>
+                <p><strong>Již nyní v naší civilizaci hladoví cca 1 miliarda lidí</strong> - jedí jednotvárnou stravu. Dnes zaujímají pole s krmivy pro zvířata cca <strong>třetinu všech obdělávaných ploch světa</strong>. Hrozí, že velké množství orné půdy bude využíváno na pěstování toho, co je ekonomicky výhodnější. To znamená právě krmiv pro zvířata a ne potravin přímo pro lidskou spotřebu.</p>
+                <p><strong>Při získávání 1kg hmoty potemníka moučného stačí 2000x méně vody, vznikne 90x méně CO2, je zabráno 17x méně prostoru a zapotřebí je 20x méně krmiva než pro 1kg masa.</strong> </p>
             </div>
+        </div>
 
-            <div class="popis">
-                <h3>Chov</h3>
-                <p>Prvním krokem k úpěchu je, vůbec nějaké červy mít. Tudíž, červíci jsou velmi jednodušší na chov, ale čím více jich pak máte tím více práce to je.</p>
-                <p>Každý srpávný chovatel měl začít pouze s pár červíkama a třeba krabicí od bot. Nikdy není dobré se hned hrnout do něčeho ve velkém když to ještě neumíte 100%</p>
+
+        <div class="header">
+            <div>
+                <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                    <defs>
+                        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                    </defs>
+                    <g class="parallax">
+                        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(117, 140, 32,0.3)" />
+                        <use xlink:href="#gentle-wave" x="48" y="7" fill="#758c20" />
+                    </g>
+                </svg>
             </div>
+        </div>
+        <div class="zeleny_pozadi">
+            <div class="content-wrapper">
+                <h2>zpracování</h2>
+                <p>Červíci jsou protříděni, abychom zpracovávali pouze zdravé a živé. Vyčištění červíci jsou uvařeni a tím i sterilizováni. Dále jsou přidáni k rozdílné zeleninové složce a patřičně upraveni, ochuceni podle typu konečné pomazánky. Hotovou směsí plníme skleničky, které pak zavařujeme a připravujeme k expedici.</p>
 
-            <div class="bgimg-3">
-                <div class="malynadpis1">
-                    <span class="malynadpis">2. Krok</span>
-                </div>
-            </div>
-
-            <div class="popis">
-                <h3>Výběr</h3>
-                <p>Druhým krokem je, pak samotné už vypasené červíky, vybrat a dát si velký pozor na to aby jste k tomu nepřidali žádné larvy, brouky nebo dokonce už schnilou potravu jako je třeba salát nebo chleba</p>
-                <p>Tyto vybrané červíky je třeba přepravit do jiné nádoby kde už budete vědět že z téhle várky připravujete paštiku či pomazánku</p>
-            </div>
-
-            <div class="bgimg-4">
-                <div class="malynadpis1">
-                    <span class="malynadpis">3. Krok</span>
-                </div>
-            </div>
-
-            <div class="popis">
-                <h3>Prodej</h3>
-                <p>červíci se musejí rozprodat cílené skupině zákazníku za jakýchkoliv podmínek</p>
             </div>
         </div>
     </article>
@@ -113,8 +151,5 @@
                 x.className = "topnav";
             }
         }
-
     </script>
-</body>
-
-</html>
+</body></html>

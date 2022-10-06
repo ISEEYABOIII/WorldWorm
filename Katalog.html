@@ -20,65 +20,110 @@
 
 <body>
 
-    <div class="topnav" id="myTopnav">
+    <div class="topnav-mobile" id="myTopnav">
         <div class="lg"><a href="index.html"><img src="images/logo.jpg" alt="logo"></a></div>
-        <a href="o-nas.html">Kdo jsme</a>
-        <a href="chov.html">Červíci</a>
-        <a href="Katalog.html" class="active">Produkty</a>
+        <a href="o-nas.html">KDO JSME</a>
+        <a href="chov.html">ČERVÍCI</a>
+        <a href="Katalog.html" class="active">PRODUKTY</a>
+        <a href="kontakty.html">KONTAKTY</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div class="topnav" id="myTopnav">
 
+        <a href="o-nas.html">KDO JSME</a>
+        <a href="chov.html">ČERVÍCI</a>
+        <div class="lg"><a href="index.html"><img src="images/logo.jpg" alt="logo"></a></div>
+        <a href="Katalog.html" class="active">PRODUKTY</a>
+        <a href="kontakty.html">KONTAKTY</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
     </div>
     <article>
         <header class="page-title">
-            <h1>Produkty</h1>
+            <h1>produkty</h1>
         </header>
-        <div class="content-wrapper">
-            <div class="citat"><span class="uvozovky">„</span>KVALITA, UDRŽITELNOST, VÝŽIVNOST, LAHODNOST<span class="uvozovky">“</span></div>
-            <div class="nadpisek">POMAZÁNKY</div>
+        <div class="header">
+            <div>
+                <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                    <defs>
+                        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                    </defs>
+                    <g class="parallax">
+                        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(117, 140, 32,0.3)" />
+                        <use xlink:href="#gentle-wave" x="48" y="7" fill="#758c20" />
+                    </g>
+                </svg>
+            </div>
+        </div>
+        <div class="zeleny_pozadi">
+            <div class="content-wrapper">
+                <div class="citat"><span class="uvozovky" style="color: white">„</span>KVALITA, UDRŽITELNOST, VÝŽIVNOST, LAHODNOST<span class="uvozovky" style="color: white">“</span></div>
+                
 
-            <table style="width: 100%">
-                <tr>
-                    <th>
-                        <div class="card">
-                            <img src="images/pasticka.jpeg" alt="pomazanka" style="width:100%">
-                            <div class="jmeno-produktu">Pepřové WW</div>
-                            <p class="price">130 Kč</p>
-                            <p class="popisek">Pouze kvalitní surovinový základ a červíci. Jemná masová chuť</p>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="card">
-                            <img src="images/pasticka.jpeg" alt="pomazanka" style="width:100%">
-                            <div class="jmeno-produktu">Kari WW</div>
-                            <p class="price">130 Kč</p>
-                            <p class="popisek">Pouze kvalitní surovinový základ a červíci. Jemná masová chuť</p>
-                        </div>
-                    </th>
-                </tr>
+            </div>
+        </div>
+        <div class="footer">
+            <div>
+                <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                    <defs>
+                        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                    </defs>
+                    <g class="parallax">
+                        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(117, 140, 32,0.7" />
+                        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(117, 140, 32,0.5)" />
+                        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(117, 140, 32,0.3)" />
+                        <use xlink:href="#gentle-wave" x="48" y="7" fill="#758c20" />
+                    </g>
+                </svg>
+            </div>
+        </div>
+        <div class="bily_pozadi">
+            <div class="content-wrapper">
+                <div class="nadpisek">pomazánky</div>
+                <table style="width: 100%">
+                    <tr>
+                        <th>
+                            <div class="card">
+                                <img src="images/pasticka.jpeg" alt="pomazanka" style="width:100%">
+                                <div class="jmeno-produktu">rajčata s mandlemi</div>
+                                <p class="price">130 Kč</p>
+                                <p class="popisek">Rajčatovo-česneková pomazánka s mandlemi, přibližující se chutí i konzistencí ke stylu veganských pomazánek. Obsahuje 13,5g bílkovin (30g potemníka moučného)</p>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="card">
+                                <img src="images/pasticka.jpeg" alt="pomazanka" style="width:100%">
+                                <div class="jmeno-produktu">česneková</div>
+                                <p class="price">130 Kč</p>
+                                <p class="popisek">Pro milovníky česneku, avšak česnekového dechu smrti se bát nemusíte. Je to totiž utlumen třemi rozinkami pro chuť. Obsahuje 31g bílkovin (70g potemníka moučného)</p>
+                            </div>
+                        </th>
+                    </tr>
 
-                <tr>
-                    <th>
-                        <div class="card">
-                            <img src="images/pasticka.jpeg" alt="pomazanka" style="width:100%">
-                            <div class="jmeno-produktu">Classic WW</div>
-                            <p class="price">130 Kč</p>
-                            <p class="popisek">Pouze kvalitní surovinový základ a červíci. Jemná masová chuť</p>
-                        </div>
-                    </th>
+                    <tr>
+                        <th>
+                            <div class="card">
+                                <img src="images/pasticka.jpeg" alt="pomazanka" style="width:100%">
+                                <div class="jmeno-produktu">zeleninový mix</div>
+                                <p class="price">130 Kč</p>
+                                <p class="popisek">Pro zákazníky co hledají exotičtější chutě máme komplexní zeleninovou směs s mnoho navzájem doplňujích se chutěmi a velkým množstvím vitamínů. Obsahuje (?)g bílkovin ( (?)g potemníka moučného)</p>
+                            </div>
+                        </th>
 
-                    <th>
-                        <div class="card">
-                            <img src="images/pasticka.jpeg" alt="pomazanka" style="width:100%">
-                            <div class="jmeno-produktu">Česnekové WW</div>
-                            <p class="price">130 Kč</p>
-                            <p class="popisek">Pouze kvalitní surovinový základ a červíci. Jemná masová chuť</p>
-                        </div>
-                    </th>
-                </tr>
-            </table>
-
+                        <th>
+                            <div class="card">
+                                <img src="images/pasticka.jpeg" alt="pomazanka" style="width:100%">
+                                <div class="jmeno-produktu">pepřová</div>
+                                <p class="price">130 Kč</p>
+                                <p class="popisek">Jemná pepřová chuť s vinným nádechem, přibližující se chuti prestižních francouzských paštik, však mnohem výživnější. Obsahuje přes 45g živočišné bílkoviny (100g potemníka moučného)</p>
+                            </div>
+                        </th>
+                    </tr>
+                </table>
+            </div>
         </div>
     </article>
 
@@ -117,6 +162,4 @@
             }
         }
     </script>
-</body>
-
-</html>
+</body></html>

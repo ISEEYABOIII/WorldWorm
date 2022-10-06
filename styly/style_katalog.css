@@ -16,6 +16,7 @@
     border-radius: 10px;
     padding-bottom: 10px;
     margin-bottom: 80px;
+    background-color: white;
 }
 
 .card img {
@@ -29,7 +30,7 @@
 .price {
     color: var(--svetle-zelena);
     font-size: 22px;
-    font-family: "Bree Serif";
+    font-family: "quicksand";
     font-weight: 500;
     text-align: center;
     min-height: 30px;
@@ -40,7 +41,7 @@
 }
 
 .popisek {
-    font-family: "Bree Serif";
+    font-family: "quicksand";
     font-size: 15px;
     font-weight: 100;
     text-align: center;
@@ -52,20 +53,31 @@
 .nadpisek {
     text-align: center;
     font-size: 4rem;
-    font-family: "Signika Negative";
+    font-family: var(--nadpis);
     font-weight: 600;
     padding-top: 30px;
     padding-bottom: 60px;
-    color: black;
+    color: var(--svetle-zelena);
 }
 
 .jmeno-produktu {
-    font-family: "Playfair Display";
+    font-family: var(--nadpis);
     font-size: 3vh;
     font-weight: 500;
     padding-top: 10px;
-    min-height: 35px;
+    min-height: 60px;
 }
+
+
+
+.bily_pozadi {
+    background-image: url(../images/Vzorek%20-%20b%C3%ADl%C3%A1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
 
 @media screen and (max-width: 600px) {
     .jmeno-produktu {

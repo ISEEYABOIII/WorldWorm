@@ -94,7 +94,7 @@ header.page-title {
 
 header.page-title h1 {
     font-family: var(--nadpis);
-    font-weight: 300;
+    font-weight: 500;
     color: white;
     border: none;
     font-size: 10vw;

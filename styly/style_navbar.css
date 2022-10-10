@@ -6,6 +6,7 @@
     --nadpis: "Major Mono Display";
     --texty: "quicksand";
 }
+
 .topnav .lg a:hover {
     background-color: white;
 }
@@ -94,6 +95,7 @@
 @media screen and (max-width: 600px) {
     .topnav.responsive {
         position: relative;
+        padding-bottom: 10px;
     }
 
     .topnav.responsive a.icon {
@@ -108,12 +110,12 @@
         text-align: left;
     }
 
-    .topnav.responsive {
-        float: none;
-    }
+    .topnav.responsive a.active {}
 
     .topnav.responsive {
+        float: none;
         position: relative;
+
     }
 
     .topnav.responsive {

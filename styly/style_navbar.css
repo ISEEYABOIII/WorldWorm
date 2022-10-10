@@ -1,212 +1,127 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap');
+.topnav .lg a:hover {
+    background-color: white;
+}
 
-:root {
-    --svetle-zelena: #758c20;
-    --link-color: #758c20;
-    --hover-color: #758c20;
-    --velikost-pisma: 15px;
-    --nadpis: "Major Mono Display";
-    --texty: "quicksand";
+.topnav .lg img {
+    height: 50px;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-content: center;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin 0;
+}
+
+.topnav a:not(.lg a) {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    color: var(--accent-color);
+
+}
+
+.topnav a.active {
+    color: var (--svetle-zelena);
+    background-color: var(--accent-color);
+}
+
+.topnav .icon {
+    display: none;
+}
+
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover:not(.lg a) {
+    color: var (--accent-color);
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+    nav.topnav > * {
+        display: none;
+    }
+
+    nav.topnav {
+        justify-content: space-between;
+    }
+
+    .topnav .lg {
+        display: block;
+        order: -1;
+        padding-left: 10px;
+        align-self: flex-start;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+        color: var (--accent-color);
+    }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .topnav.responsive {
+        float: none;
+    }
+
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive {
+        flex-direction: column;
+        text-align: left;
+        position: fixed;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
 }
 
 @media screen and (min-width: 600px) {
-    .topnav-mobile {
-        display: none;
-    }
-
-    .topnav .lg a:hover {
-        background-color: white;
-    }
-
-
-    .topnav .lg img {
-        height: 50px;
-    }
-
-    .topnav {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        overflow: hidden;
-        background-color: white;
-        padding: 0;
-        margin: 0;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        z-index: 100;
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-        font-family: "quicksand";
-        font-weight: 400;
-    }
-
-    .topnav a {
-        float: left;
-        color: black;
-        text-align: center;
-        text-decoration: none;
-        margin 0;
-    }
-
     .topnav a:not(.lg a) {
-        padding: 1rem;
-        font-size: 20px;
-    }
-
-    .topnav a:hover {
-        color: var(--svetle-zelena);
-
-    }
-
-    .topnav a.active {
-        color: white;
-        background-color: var(--svetle-zelena);
-    }
-
-    .topnav .icon {
-        display: none;
-    }
-
-
-    /* Add a dark background on topnav links and the dropdown button on hover */
-    .topnav a:hover:not(.lg a) {
-        color: var (--svetle-zelena);
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 600px) {
-    .topnav {
-        display: none;
-    }
-
-    .topnav-mobile .lg a:hover {
-        background-color: white;
-    }
-
-    .topnav-mobile .lg {
-        padding-left: 10px;
-    }
-
-    .topnav-mobile .lg img {
-        height: 50px;
-    }
-
-    .topnav-mobile {
-        overflow: hidden;
-        background-color: white;
-        align-content: center;
-        padding: 0;
-        margin: 0;
-        align-items: center;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        z-index: 100;
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    }
-
-    .topnav-mobile a {
-        float: left;
-        display: block;
-        color: black;
-        text-align: center;
-        text-decoration: none;
-        margin 0;
-    }
-
-    .topnav-mobile a:not(.lg a) {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        font-size: 20px;
-    }
-
-    .topnav-mobile a:hover {
-        color: var(--accent-color);
-
-    }
-
-    .topnav-mobile a.active {
-        color: white;
-        background-color: var(--accent-color);
-    }
-
-    .topnav-mobile .icon {
-        display: none;
-    }
-
-
-    /* Add a dark background on topnav links and the dropdown button on hover */
-    .topnav-mobile a:hover:not(.lg a) {
-        color: var (--accent-color);
-    }
-
-    /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-    @media screen and (max-width: 600px) {
-        .topnav-mobile a:not(:first-child) {
-            display: none;
-        }
-
-        .topnav-mobile a.icon {
-            float: right;
-            display: block;
-            color: var (--accent-color);
-        }
-    }
-
-    /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-    @media screen and (max-width: 600px) {
-        .topnav-mobile .responsive {
-            position: relative;
-        }
-
-        .topnav-mobile .responsive a.icon {
-            position: absolute;
-            right: 0;
-            top: 0;
-        }
-
-        .topnav-mobile .responsive a {
-            float: none;
-            display: block;
-            text-align: left;
-        }
-
-        .topnav-mobile .responsive {
-            float: none;
-        }
-
-        .topnav-mobile .responsive {
-            position: relative;
-        }
-
-        .topnav-mobile .responsive {
-            display: block;
-            width: 100%;
-            text-align: left;
-            position: fixed;
-            border-bottom-right-radius: 20px;
-            border-bottom-left-radius: 20px;
-            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-        }
-
-    }
-
-    @media screen and (min-width: 600px) {
-        .topnav-mobile a:not(.lg a) {
-            min-width: 100px;
-        }
+        min-width: 100px;
     }
 }

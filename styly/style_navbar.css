@@ -1,3 +1,11 @@
+:root {
+    --svetle-zelena: #758c20;
+    --link-color: #758c20;
+    --hover-color: #758c20;
+    --velikost-pisma: 15px;
+    --nadpis: "Major Mono Display";
+    --texty: "quicksand";
+}
 .topnav .lg a:hover {
     background-color: white;
 }
@@ -40,13 +48,12 @@
 }
 
 .topnav a:hover {
-    color: var(--accent-color);
-
+    color: var(--svetle-zelena);
 }
 
 .topnav a.active {
-    color: var (--svetle-zelena);
-    background-color: var(--accent-color);
+    color: white;
+    background-color: var(--svetle-zelena);
 }
 
 .topnav .icon {

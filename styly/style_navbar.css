@@ -55,6 +55,7 @@
 .topnav a.active {
     color: white;
     background-color: var(--svetle-zelena);
+    border-radius: 0;
 }
 
 .topnav .icon {
@@ -110,7 +111,9 @@
         text-align: left;
     }
 
-    .topnav.responsive a.active {}
+    .topnav.responsive a.active {
+        border-radius: 30px;
+    }
 
     .topnav.responsive {
         float: none;

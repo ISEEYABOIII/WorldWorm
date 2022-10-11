@@ -137,6 +137,18 @@ section {
     font-weight: 700;
     text-decoration: underline;
 }
+.footer-distributed a{
+    color: grey;
+    text-decoration: none;
+}
+
+.footer-distributed a.here{
+    color: var(--svetle-zelena);
+}
+
+.footer-distributed a:hover{
+    text-decoration: underline;
+}
 
 .footer-distributed {
     background-color: #292c2f;
@@ -222,35 +234,6 @@ section {
         line-height: 1.8;
         text-align: center;
     }
-}
-
-
-.tooltip {
-    position: relative;
-    display: inline-block;
-}
-
-.tooltip .tooltipimg {
-    visibility: hidden;
-
-    background-color: transparent;
-    text-align: center;
-    margin-top: 20px;
-
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-}
-
-.tooltip:hover .tooltipimg {
-    visibility: visible;
-}
-
-.tooltipimg img {
-    border-radius: 20px;
-    width: 80px;
-    margin-left: -60px;
-    opacity: 0.8;
 }
 
 .citat {

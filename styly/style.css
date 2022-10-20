@@ -489,3 +489,6 @@ section {
         margin-left: 1em;
     }
 }
+
+header.page-title h1{animation:focus-in-expand .8s cubic-bezier(.25,.46,.45,.94) both}
+@keyframes focus-in-expand{0%{letter-spacing:-.5em;filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}}
